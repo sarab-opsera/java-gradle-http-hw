@@ -1,0 +1,3 @@
+gradle --refresh-dependencies clean build
+gradle run
+http://localhost:8080
