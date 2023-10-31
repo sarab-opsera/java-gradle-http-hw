@@ -1,3 +1,8 @@
+
+docker build --no-cache -t java-gradle-http-hw .
+docker run -p 80:80 java-gradle-http-hw
+docker run -it java-gradle-http-hw /bin/sh
+
 gradle --refresh-dependencies clean build
 gradle run
-http://localhost:8080
+http://localhost
